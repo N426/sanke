@@ -1,0 +1,60 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-25 08:13:28
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-25 09:18:26
+*/
+    div.box{
+        width: 600px;
+        height:600px;
+        margin: 0 auto;
+        position: relative;
+        background: url("../img/广告.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .box > div{
+        width: 30px;
+        height: 30px;
+        box-sizing: border-box;
+        /*border: 1px solid #000;*/
+        float: left;
+    }
+    .she{
+       border-radius: 10%;
+       background: black;
+
+    }
+    .she:nth-child(1){
+        background-image: url("8abd1ce83865ac004b1e7ef9aedf6432bc1ac7b1510e7-jhkx3I_fw658_03.png");
+    }
+    .food{
+        background:red;
+    }
+    div.box .fengshu{
+        width: 100px;
+        height: 100px;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 100px;
+        font-size: 30px;
+        position: absolute;
+        top: 100px;
+        left: -125px;
+        background: #D4D4D4;
+    }
+    .but1{
+        display: block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        right:8%;
+    }
+    .but2{
+        display: block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 120px;
+        right:8%;
+    }
